@@ -9,6 +9,7 @@ Instituto Tecnologico de Estudios Superiores de Monterrey, Campus Queretaro
 | Nombre          | Matricula |
 | --------------- | --------- |
 | Carlos Salguero | A00833341 |
+| Sergio Garnica  | A01704025 |
 
 ### Profesor
 

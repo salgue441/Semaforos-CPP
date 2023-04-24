@@ -1,6 +1,7 @@
 /**
  * @file monte_carlo.cpp
  * @author Carlos Salguero
+ * @author Sergio Garnica
  * @brief This is the implementation of the Monte Carlo class
  * @version 0.1
  * @date 2023-04-24
@@ -55,10 +56,8 @@ std::uint32_t MonteCarlo::count_points_in_quarter_circle(
     std::uint32_t count{};
 
     for (std::uint32_t i{}; i < points.size(); i += 2)
-    {
         if (points[i] * points[i] + points[i + 1] * points[i + 1] <= 1)
             ++count;
-    }
 
     return count;
 }

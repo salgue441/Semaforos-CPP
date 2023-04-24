@@ -1,6 +1,7 @@
 /**
  * @file monte_carlo.h
  * @author Carlos Salguero
+ * @author Sergio Garnica
  * @brief This is the definition of the Monte Carlo class
  * @version 0.1
  * @date 2023-04-24
@@ -13,12 +14,12 @@
 #define MONTE_CARLO_H
 
 // C++ libraries
-#include <random>
-#include <vector>
-#include <thread>
-#include <algorithm>
-#include <future>
-#include <cstdint>
+#include <random>    // std::mt19937, std::uniform_real_distribution,
+#include <vector>    // std::vector
+#include <thread>    // std::thread
+#include <future>    // std::promise, std::future
+#include <cstdint>   // std::uint32_t
+#include <algorithm> // std::for_each
 
 /**
  * @brief
