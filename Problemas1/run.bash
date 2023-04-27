@@ -17,3 +17,9 @@ make
 # Clean Up
 make clean
 cd ..
+
+# Compiling pizza.cpp
+g++ -std=c++2a pizza.cpp -o pizza
+./pizza
+
+rm pizza

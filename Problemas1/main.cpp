@@ -15,7 +15,6 @@
 
 // Project files
 #include "monte_carlo.cpp"
-#include "pizza.cpp"
 
 // Main function
 /**
@@ -39,6 +38,4 @@ int main()
 
     std::cout << "Pi = " << std::setprecision(16)
               << mc.estimate_pi() << std::endl;
-
-    PizzaParty pizzaParty;
 }
