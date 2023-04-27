@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Puente.dir/main.cpp.o -o Puente   -L"/mnt/c/users/carlo/documents/Tec de Monterrey/semestres/2023/Febrero - Junio/TC2037.601 - Implementacion de Metodos Computacionales/threads/semaforos/Problemas2/include" 
