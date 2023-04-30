@@ -1,14 +1,3 @@
-/**
- * @file main.cpp
- * @author Carlos Salguero
- * @brief Main file of the program
- * @version 0.1
- * @date 2023-04-27
- *
- * @copyright Copyright (c) 2023
- *
- */
-
 #include <iostream>
 #include <iomanip>
 #include <unistd.h>
